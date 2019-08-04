@@ -1,5 +1,5 @@
-#include <avr/io.h>
-#include <avr/pgmspace.h>
+//#include <io.h>
+#include <pgmspace.h>
 
 #ifndef FONT5X7_H
 #define FONT5X7_H
