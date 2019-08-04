@@ -638,6 +638,9 @@ void enterHighScore(byte file)
         EEPROM.write(address + (5*j) + 3, initials[1]);
         EEPROM.write(address + (5*j) + 4, initials[2]);
 
+        // For M5
+        EEPROM.commit();
+       
         // tmpScore and tmpInitials now hold what we want to
         //write in the next slot.
         score = tmpScore;
