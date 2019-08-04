@@ -1,4 +1,44 @@
-Arduboy Library
+Arduboy Library on M5StackFACES
+===============
+
+This is Arduboy Library, for running on [M5Stack FACES](https://github.com/m5stack).
+Not the Emulator :-).
+
+You could run sketches of Arduboy Game、with a little fixed!
+
+## Installating and Using 
+
+it's same as original Library.
+
+For Example,you could locate The Arduino `libraries/` Folder.
+
+
+## Sound
+
+Arduboy has a simple speaker. Therefore If you want to hear the sound, you can
+use Piezoelectric sounder connected GPIO2 and GPIO26.
+
+
+## Checked working scketches
+### ArduBreakout(in Example)
+
+You will be built soon, from [example sketch](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/tree/master/examples/ArduBreakout)
+
+### Arduman_arduboylib11
+https://github.com/SethRobinson/arduman_arduboylib11
+
+You need to make a little fix.
+
+
+### kemono patrol
+https://twitter.com/metalidol/status/843874920052346881
+
+You need to make a little fix.
+
+### more...!?
+
+
+Arduboy Library(Original Description)
 ===============
 
 Welcome to [Arduboy](https://www.arduboy.com)! This `README` will provide an 
