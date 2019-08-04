@@ -6,7 +6,7 @@ Not the Emulator :-).
 
 You could run sketches of Arduboy Game、with a little fixed!
 
-## Installating and Using 
+## Installing and Using 
 
 it's same as original Library.
 
