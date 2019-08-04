@@ -294,7 +294,8 @@ void drawGameOver()
   delay(4000);
 }
 
-void pause()
+//void pause()
+void gamepause()    /* for M5 */
 {
   paused = true;
   //Draw pause to the screen
@@ -705,7 +706,8 @@ void loop()
     if(pad >1 && oldpad==0 && released)
     {
       oldpad2=0; //Forces pad loop 2 to run once
-      pause();
+      //pause();
+      gamepause();
     }
 
     oldpad=pad;
