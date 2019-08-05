@@ -6,7 +6,7 @@ Not the Emulator :-).
 
 You could run sketches of Arduboy Game、with a little fixed!
 
-## Installating and Using 
+## Installing and Using 
 
 it's same as original Library.
 
@@ -18,20 +18,27 @@ For Example,you could locate The Arduino `libraries/` Folder.
 Arduboy has a simple speaker. Therefore If you want to hear the sound, you can
 use Piezoelectric sounder connected GPIO2 and GPIO26.
 
+![Speaker](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/misc/gpio26.jpg)
 
-## Checked working scketches
+## Checked working sketches
 ### ArduBreakout(in Example)
 
-You will be built soon, from [example sketch](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/tree/master/examples/ArduBreakout)
+![ArduBreakout](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/misc/breakout.jpg)
+
+You will be built soon, from [example sketch](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/tree/master/examples/ArduBreakout).
 
 ### Arduman_arduboylib11
 https://github.com/SethRobinson/arduman_arduboylib11
+
+![Arduman](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/misc/arduman.jpg)
 
 You need to make a little fix.
 
 
 ### kemono patrol
 https://twitter.com/metalidol/status/843874920052346881
+
+![kemono](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/misc/kemonopatrol.jpg)
 
 You need to make a little fix.
 
