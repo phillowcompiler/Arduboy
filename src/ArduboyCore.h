@@ -99,6 +99,7 @@ class ArduboyCore
 public:
     ArduboyCore();
     uint8_t getInput();
+    uint8_t buttonsState();
     void paintScreen(u_char *image);
     void setRGBled(uint8_t red, uint8_t green, uint8_t blue);
 

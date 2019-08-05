@@ -11,11 +11,15 @@
 
 // defines
 #define M5STACK
+#define ESP32ARDU
 
 // EEPROM settings
 #define EEPROM_VERSION 0
 #define EEPROM_BRIGHTNESS 1
 #define EEPROM_AUDIO_ON_OFF 2
+
+// we reserve the first 16 byte of EEPROM for system use
+#define EEPROM_STORAGE_SPACE_START 16 // and onward
 
 // values for button states
 #define LEFT_BUTTON 4

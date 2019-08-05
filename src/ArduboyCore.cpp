@@ -139,7 +139,7 @@ void ArduboyCore::boot()
   pinMode(5, INPUT_PULLUP);     // add Faces
   btnsts = 0;
   
-  EEPROM.begin(512);
+  EEPROM.begin(1024);
 
   spi.begin();
   bootLCD();
@@ -304,9 +304,17 @@ void ArduboyCore::paintScreen(u_char *image)
 
 /* Buttons */
 #define FACES_KEYBOARD_I2C_ADDR 0x08
+
+
 uint8_t ArduboyCore::getInput()
 {
-  Wire.requestFrom(FACES_KEYBOARD_I2C_ADDR, 1);
+    return buttonsState(); 
+}
+
+
+uint8_t ArduboyCore::buttonsState()
+{
+   Wire.requestFrom(FACES_KEYBOARD_I2C_ADDR, 1);
   if (Wire.available()){
     uint8_t key = Wire.read();
     //Serial.printf("btnsts=%d\n",key);
@@ -314,6 +322,9 @@ uint8_t ArduboyCore::getInput()
   }
   return btnsts;
 }
+
+
+
 
 void ArduboyCore::setRGBled(uint8_t red, uint8_t green, uint8_t blue)
 {

@@ -535,6 +535,11 @@ bool Arduboy::nextFrame(){
   return post_render;
 }
 
+unsigned char* Arduboy::getBuffer()
+{
+  return sBuffer;
+}
+
 boolean Arduboy::pressed(uint8_t buttons)
 {
   return (getInput() & buttons);
