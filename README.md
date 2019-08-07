@@ -28,11 +28,14 @@ use Piezoelectric sounder connected GPIO2 and GPIO26.
 You will be built soon, from [example sketch](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/tree/master/examples/ArduBreakout).
 
 ### Arduman_arduboylib11
+Original
+
 https://github.com/SethRobinson/arduman_arduboylib11
 
-![Arduman](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/misc/arduman.jpg)
+Fixed for M5Stack FACES
 
-You need to make a little fix.
+https://github.com/phillowcompiler/arduman_arduboylib11_M5StackFACES
+
 
 
 ### kemono patrol
