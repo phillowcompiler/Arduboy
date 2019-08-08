@@ -2,6 +2,8 @@
 
 **Kemono patrol** is a simple shooting game on Arduboy using charactor of "Kemono Friends" in Japanese Animation.
 
+![screenshot](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/examples/kemonopatrol/screenshot.jpg)
+
 Playing movie : [here](https://youtu.be/zvykGUueuCU)
 
 ## source
