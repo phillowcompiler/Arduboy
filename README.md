@@ -45,6 +45,8 @@ https://twitter.com/metalidol/status/843874920052346881
 
 You need to make a little fix.
 
+Plz read [here](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/examples/kemonopatrol/read.md).
+
 ### more...!?
 
 
