@@ -41,11 +41,11 @@ https://github.com/phillowcompiler/arduman_arduboylib11_M5StackFACES
 ### kemono patrol
 https://twitter.com/metalidol/status/843874920052346881
 
-![kemono](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/tree/master/examples/kemonopatrol)
+![kemono](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/examples/kemonopatrol/screenshot.jpg)
 
 You need to make a little fix.
 
-Plz read [here](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/examples/kemonopatrol/read.md).
+Plz read [here](https://github.com/phillowcompiler/ArduboyOnM5StackFACES/blob/master/examples/kemonopatrol/).
 
 ### more...!?
 
